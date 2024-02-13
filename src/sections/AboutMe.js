@@ -15,7 +15,7 @@ const AboutMe = () => {
 
           <div className='text-lg pt-10 md:pt-0 flex-center px-10 md:w-1/2'>
             <p>
-                I am currently pursuing a graduate degree in Computer Engineering 
+                I am currently pursuing a master&#39;s degree in Computer Engineering 
             at Stony Brook University, where I also earned my Bachelor&#39;s degree 
             in Computer Science. As a passionate software engineer, I am always 
             eager to learn and develop new skills to keep up with the evolving industry.
