@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
             
           <div className="flex-shrink-0 ">
-            <Link to="intro" smooth={true} offset={-120} className="font-bold text-xl text-gray-300 hover:text-white hover:cursor-pointer">Ruibo Xu</Link>
+            <Link to="intro" smooth={true} offset={-120} className="font-pacifico text-3xl text-gray-300 hover:text-white hover:cursor-pointer">Ruibo Xu</Link>
           </div>
             
           <div className="hidden md:block">

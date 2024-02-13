@@ -6,30 +6,30 @@ const AboutMe = () => {
   return (
     <section id='aboutme' className="py-8">
       <div className="container mx-auto flex flex-wrap pt-4 pb-12">
-        <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">About Me</h2>
+        <h2 className="w-full my-2 text-3xl md:text-5xl font-bold leading-tight text-center text-gray-800">About Me</h2>
 
         <div className="flex flex-col md:flex-row justify-center pt-5">
           <div className="flex-end px-10">
             <Image src={aboutMe} alt="working gif" className='rounded-md' />
           </div>
 
-          <div className='text-lg pt-10 flex-center px-10 md:w-1/2'>
+          <div className='text-lg pt-10 md:pt-0 flex-center px-10 md:w-1/2'>
             <p>
-                  I recently graduated with a major in Computer 
-              Science from Stony Brook University. I am a passionate 
-              software engineer who is eager to learn and develop new 
-              skills in the industry.
+                I am currently pursuing a graduate degree in Computer Engineering 
+            at Stony Brook University, where I also earned my Bachelor's degree 
+            in Computer Science. As a passionate software engineer, I am always 
+            eager to learn and develop new skills to keep up with the evolving industry.
             </p>
 
             <br/>
 
             <p>
-                  During my time in university, I gained a solid foundation 
-              in various programming languages including Java, Python, 
-              Javascript and C. I have also completed multiple projects,
-              both individually and in teams, that required me to utilize 
-              various software development methodologies such as mongoDB, 
-              React, and Git.
+                During my academic journey at Stony Brook University, 
+            I acquired proficiency in several programming languages, 
+            including Java, Python, JavaScript, and C. I undertook numerous 
+            projects, both individually and as part of a team, which allowed 
+            me to apply and enhance my skills in various software development 
+            methodologies and technologies such as MongoDB, React, and Git.
             </p>
 
             <br/>

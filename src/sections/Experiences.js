@@ -5,7 +5,7 @@ import ExperienceItem from '../components/ExperienceItem';
 const Experiences = () => {
   const Experiences = [{
     title: 'Web Developer Intern',
-    company: 'Google',
+    company: 'Clocky LLC',
     duration: 'January 2024 - Present',
     description: [
       "Created custom Shopify themes and templates using Liquid, enhancing brand identity and user engagement, and increasing session duration by 10%.",
@@ -27,17 +27,17 @@ const Experiences = () => {
   }];
 
   return (
-    <section id='experience'>
-      <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">Experience</h2>
-      {Experiences.map((experience, index) => (
-        <ExperienceItem
-          key={index}
-          title={experience.title}
-          company={experience.company}
-          duration={experience.duration}
-          description={experience.description}
-        />
-      ))}
+    <section id='experience' className='px-4 pb-10'>
+          <h2 className="w-full my-2 text-3xl md:text-5xl font-bold leading-tight text-center text-gray-800 pb-5">Experience</h2>
+          {Experiences.map((experience, index) => (
+            <ExperienceItem
+              key={index}
+              title={experience.title}
+              company={experience.company}
+              duration={experience.duration}
+              description={experience.description}
+            />
+          ))}
     </section>
   );
 };
