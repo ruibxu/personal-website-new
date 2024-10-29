@@ -6,7 +6,7 @@ const Experiences = () => {
   const Experiences = [{
     title: 'Web Developer Intern',
     company: 'Clocky LLC',
-    duration: 'January 2024 - Present',
+    duration: 'January 2024 - May 2024',
     description: [
       "Created custom Shopify themes and templates using Liquid, enhancing brand identity and user engagement, and increasing session duration by 10%.",
       "Built an upsell feature that recommended relevant products to customers during checkout, resulting in a 15% increase in average order value and a significant revenue boost.",
@@ -16,7 +16,7 @@ const Experiences = () => {
   {
     title: 'Front-End Developer Intern',
     company: 'Prifina',
-    duration: 'January 2024 - Present',
+    duration: 'January 2024 - April 2024',
     description: [
       "Engineered a high-performance, scalable mobile app architecture using React Native and its core libraries, ensuring seamless user experiences and future growth potential.",
       "Utilized sensor data to design and build app features that provided users with valuable insights and personalized recommendations.",

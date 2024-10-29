@@ -5,25 +5,10 @@ import Roy from '../../public/roy.png';
 import tileWorkShop from '../../public/tileworkshop.png';
 import ecommerce from '../../public/e-commerce.png';
 import ExpenseMate from '../../public/expenseMate.png';
+import RecipeDiscovery from '../../public/RecipeDiscovery.png';
 
 const Projects = () => {
   const projects = [
-    {
-      title: 'E-commerce Website',
-      image: ecommerce,
-      technologies: ['React', 'mySQL', 'Express','AWS'],
-      description: 
-          `This project is an advanced e-commerce platform enhancing 
-          online shopping. It optimizes product discovery, reducing 
-          search time by 10% and improving shopping efficiency. Built 
-          with Node.js and Express, it integrates RESTful APIs for 
-          efficient data exchange. It prioritizes data protection 
-          and system reliability with a scalable, secure AWS RDS database. 
-          This ensures a seamless, secure shopping experience for users 
-          and a manageable platform for merchants.`,
-      github: 'https://github.com/ruibxu/e-commerce',
-      website: 'https://e-commerce.ruiboxu.com/',
-    },
     {
       title: 'TileWorkShop',
       image: tileWorkShop,
@@ -41,6 +26,33 @@ const Projects = () => {
          environment for sharing and collaboration.`,
       github: 'https://github.com/ruibxu/TileWorkShop-TWS',
       website: 'https://tileworkshop.herokuapp.com/',
+    },
+    {
+      title: 'E-commerce Website',
+      image: ecommerce,
+      technologies: ['React', 'mySQL', 'Express','AWS'],
+      description: 
+          `This project is an advanced e-commerce platform enhancing 
+          online shopping. It optimizes product discovery, reducing 
+          search time by 10% and improving shopping efficiency. Built 
+          with Node.js and Express, it integrates RESTful APIs for 
+          efficient data exchange. It prioritizes data protection 
+          and system reliability with a scalable, secure AWS RDS database. 
+          This ensures a seamless, secure shopping experience for users 
+          and a manageable platform for merchants.`,
+      github: 'https://github.com/ruibxu/e-commerce',
+    },
+    {
+      title: 'Recipe Discovery',
+      image: RecipeDiscovery,
+      technologies: ['Java','Android Studio','openAI API'],
+      description: `
+    The Recipe Discovery app allows users to find recipes by
+     photographing their ingredients, using machine learning 
+     to identify items directly on their device. With the OpenAI API
+     , it provides personalized recipe suggestions based on previous 
+     recipes used, making cooking more intuitive and customized.`,
+      github: 'https://github.com/ruibxu/RecipeDiscovery',
     },
     {
       title: 'Roy\'s Revenge',
