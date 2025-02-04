@@ -82,7 +82,6 @@ const Projects = () => {
       github: 'https://github.com/ruibxu/ExpenseMate',
     },
     
-
   ];
 
   return (
