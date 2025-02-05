@@ -25,7 +25,6 @@ const Projects = () => {
          like liking, disliking, and commenting to create a supportive 
          environment for sharing and collaboration.`,
       github: 'https://github.com/ruibxu/TileWorkShop-TWS',
-      website: 'https://tileworkshop.herokuapp.com/',
     },
     {
       title: 'E-commerce Website',
