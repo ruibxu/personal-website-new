@@ -25,6 +25,7 @@ const Experiences = () => {
       
     ]
   }];
+  
 
   return (
     <section id='experience' className='px-4 pb-10'>
